@@ -10,5 +10,5 @@ Example: !cmd ipconfig
 To upload a file: !cmd upload <file_path>
 Example:  !cmd upload D:\Temp\file.txt
 
-Download a File: 
+3. Download a File: 
 To download an attached file:  !cmd download
