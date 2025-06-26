@@ -1,17 +1,17 @@
-# Custom-Discord-Bot
+# Custom-Discord-Bot 
 
-## 
+The bot handles command execution, file uploads to Discord, and file downloads from Discord to the bot's system.
 
-The bot handles command execution, file uploads to Discord, and file downloads from Discord to the bot's system. The bot also supports sending large command outputs in chunks, making it suitable for large data volumes.
+The bot also supports sending large command outputs in chunks, making it suitable for large data volumes.
 
-Key Features:
-Execute System Commands: The bot can run shell commands and return the output to the user.
+## Key Features:
+1. Execute System Commands: The bot can run shell commands and return the output to the user.
 
-Upload Files: Users can upload files from the bot's system to a Discord channel.
+2. Upload Files: Users can upload files from the bot's system to a Discord channel.
 
-Download Files: Users can upload files to Discord, and the bot can download and save them to its working directory.
+3. Download Files: Users can upload files to Discord, and the bot can download and save them to its working directory.
 
-Handle Large Data: The bot handles large output from commands by chunking and sending it in multiple messages if necessary.
+4. Handle Large Data: The bot handles large output from commands by chunking and sending it in multiple messages if necessary.
 
 
 ## Example usage 
