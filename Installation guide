@@ -1,0 +1,16 @@
+Installation Requirements:
+
+1. Python 3.7 or higher.
+2. discord.py library.
+
+##  Install dependencies:
+pip install discord.py
+
+## Clone the Repository: Clone the repository to your local machine:
+git clone https://github.com/your-repo/discord-bot-with-file-uploads.git
+cd discord-bot-with-file-uploads   
+
+## Configure the Bot: Open the script and replace the DISCORD_TOKEN with your bot's token from the Discord Developer Portal.
+
+## Run the Bot: Run the bot by executing the script:
+python bot.py
