@@ -1,3 +1,11 @@
-- name: Check if environment.yml exists
-  run: |
-    ls -la $GITHUB_WORKSPACE
+name: myenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - some-pip-package
