@@ -1,4 +1,4 @@
-# Author:Chinamay Joshi
+# Author:Deku
 # This script executes Havoc C2 shellcode within C# using PowerShell
 
 # Define the business logic for executing the shellcode (written in C#)
