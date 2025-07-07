@@ -1,1 +1,24 @@
-#### UNDER DEVELOPMENT ####
+from botbuilder.core import BotFrameworkAdapter, TurnContext
+from botbuilder.schema import Activity
+from aiohttp import web
+
+APP_ID = "YOUR_APP_ID"
+APP_PASSWORD = "YOUR_APP_SECRET"
+
+adapter = BotFrameworkAdapter(APP_ID, APP_PASSWORD)
+
+async def handle_message(req):
+    body = await req.json()
+    activity = Activity().deserialize(body)
+    auth_header = req.headers.get("Authorization", "")
+    
+    async def call_handler(turn_context: TurnContext):
+        await turn_context.send_activity("Hello from Teams bot!")
+    
+    await adapter.process_activity(activity, auth_header, call_handler)
+    return web.Response(status=200)
+
+app = web.Application()
+app.router.add_post("/api/messages", handle_message)
+
+web.run_app(app, port=3978)
