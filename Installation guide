@@ -1,4 +1,8 @@
 Installation Requirements:
+#################################################
+
+Your own configured discord bot which can be made from discord developer tools (https://discord.com/developers)
+after setting up use the token generated
 
 1. Python 3.7 or higher.
 2. discord.py library.
