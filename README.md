@@ -1,3 +1,10 @@
+This section is in work. It will be published soon.
+![image](https://github.com/user-attachments/assets/f3a36b8b-9b6e-466d-ae57-7a4a649abb7a)
+
+
+
+
+
 # Custom-Discord-Bot 
 
 The bot handles command execution, file uploads to Discord, and file downloads from Discord to the bot's system.
@@ -26,4 +33,4 @@ Example:  !cmd upload D:\Temp\file.txt
 
 3. Download a File: 
 To download an attached file:  !cmd download
-![image](https://github.com/user-attachments/assets/f3a36b8b-9b6e-466d-ae57-7a4a649abb7a)
+
