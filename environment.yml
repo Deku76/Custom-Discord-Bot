@@ -7,6 +7,6 @@ dependencies:
   - numpy
   - pandas
   - pip
- - pip:
+  - pip:
     - discord.py
     - python-dotenv
