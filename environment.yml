@@ -8,5 +8,5 @@ dependencies:
   - pandas
   - pip
   - pip:
-      - discord.py
-      - python-dotenv
+    - discord.py
+    - python-dotenv
