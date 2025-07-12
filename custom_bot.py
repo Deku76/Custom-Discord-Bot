@@ -6,8 +6,8 @@ import asyncio
 from discord import File
 
 # --- CONFIG ---
-DISCORD_TOKEN = "MTM5MTgzNDYwOTA5NTkzODA4OA.GZZUE9.a1zOXU2S36iYogFbhhjOkEYDAkhzrqwzl0YHww"  # 🔒 Replace with your actual token
-CHANNEL_ID = 1005913589040820346   # Replace with your actual channel ID
+DISCORD_TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # 🔒 Replace with your actual token
+CHANNEL_ID = XXXXXXXXXXXXXXXXXXXXXX   # Replace with your actual channel ID
 
 # --- SETUP ---
 logging.basicConfig(level=logging.INFO)
