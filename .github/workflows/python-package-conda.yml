@@ -1,12 +1,23 @@
-name: bot-env
-channels:
-  - defaults
-  - conda-forge
-dependencies:
-  - python=3.10,=3.1
-  - flake8
-  - pytest
-  - pip
-  - pip:
-      - discord.py
-      - python-dotenv
+name: Conda CI
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Conda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          environment-file: environment.yml
+          activate-environment: myenv
+          auto-activate-base: false
+
+      - name: Verify Environment
+        run: |
+          conda info --envs
+          which python
+          python -c "import numpy, pandas; print('✅ Environment OK!')"
